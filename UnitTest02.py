@@ -114,7 +114,6 @@ assert("sua idade é de") in resultado7, f'Esperava encontrar \"sua idade é de\
 print(f"Teste 7 passou! Encontro a palavra \"sua idade é de\" no texto");
 time.sleep(tempoTimer);
 
-
 assert("anos!") in resultado7, f'Esperava encontrar \"anos!\" e não encontrou no texto';
 print(f"Teste 7 passou! Encontro a palavra \"anos!\" no texto");
 time.sleep(tempoTimer);
