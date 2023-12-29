@@ -7,15 +7,14 @@ import time;
 #Crie uma função usando a declaração "def funcaoSomaTresNumeros(a, b, c):"
 #Igual o que foi feito no exercício anterior! 
 #A função deverá retornar a soma de 3 numeros;
-def funcaoSomaTresNumeros(a,b,c) :
-  return 0;
-
+def funcaoSomaTresNumeros ( a ,b ,c ) : 
+  return a+b+c 
 
 
 #Aqui você deve criar uma função chamada funcaoDivide(a, b):
 #A função deverá retornar a divisão de dois números que serão recebidos como parâmetros
-def funcaoDivide(a,b):
-  return 0;
+def funcaoDivide (a,b):
+  return  a/b  
 
 
 
@@ -32,9 +31,13 @@ def funcaoDivide(a,b):
 # O nome do usuário e a idade deversão ser lidos usando a função input, como já vimos no passado
 #Observação 3: A função deverá se chamar funcaoInserirNomeIdade, e não vai receber nenhum parâmetro.
 
-def funcaoInserirNomeIdade():
-  return "Nada";
+def funcaoInserirNomeIdade ():
+  nome = input (f'olá seu nome: ')
+  idade = input (f'quantos anos você tem? ')
+  soma = 1+1
+  soma2 = "1" + "1"
 
+  return  f'Olá {nome} sua idade é de {idade} em anos!'
 
 
 

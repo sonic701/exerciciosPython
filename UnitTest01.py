@@ -5,12 +5,12 @@ def funcaoSoma(a, b):
   total = 0;
   #Sonic vai escrever o código aqui dentro
   #Return retorna o valor obtido na variável
-  return total;
+  return total; a+b
 
 def FuncaoMultiPlica(a, b):
   total = 0;
   #Sonic vai escrever a lógica da funcao multiplica aqui
-  return total
+  return total; a*b
 
 #Aqui a framework valida os tests do Exercicio01
 resultado1 = funcaoSoma(3,2);
